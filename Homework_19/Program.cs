@@ -16,14 +16,17 @@
             }
             Console.WriteLine();
         }
+
         for (int i = 0; i < array.GetLength(0); i++)
         {
             sum += array[1, i];
         }
+
         for (int i = 0; i < array.GetLength(1); i++)
         {
             multiply *= array[i, 0];
         }
+
         Console.WriteLine($"Сумма второй строки: {sum}\nПроизведение первого столбца: {multiply}");
     }
 }
