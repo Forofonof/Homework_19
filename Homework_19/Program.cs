@@ -26,7 +26,6 @@
         {
             multiply *= array[i, 0];
         }
-
         Console.WriteLine($"Сумма второй строки: {sum}\nПроизведение первого столбца: {multiply}");
     }
 }
